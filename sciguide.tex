@@ -85,7 +85,7 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2018-07-07}
+    \date{2018-07-09}
 
 \usepackage{booktabs}
 \usepackage{ctex}
@@ -452,7 +452,7 @@ Bayesian
 
 \url{http://teachersinstitute.yale.edu/nationalcurriculum/units/2008/5/08.05.06.x.html}
 
-\chapter{实验}
+\chapter{实验}\label{exp}
 
 \section{实验设计原则}
 
@@ -468,7 +468,7 @@ Bayesian
   \href{https://www.vox.com/technology/2016/6/23/12007694/elon-musk-simulation-cartoon}{人是否在仿真中}
 \end{itemize}
 
-\chapter{数据处理}
+\chapter{数据处理}\label{data}
 
 \section{多重比较}
 
@@ -562,7 +562,7 @@ Bayesian
   MCMC方法 \url{https://www.nature.com/articles/nbt1004-1315}
 \end{itemize}
 
-\chapter{文献}
+\chapter{文献}\label{lib}
 
 \section{文献管理}
 
@@ -663,7 +663,7 @@ Noteexpress，应该说早期它们之间差异还是明显的，但到今天基
 
 \section{荟萃分析}
 
-\chapter{学术生活}
+\chapter{学术生活}\label{life}
 
 \section{项目管理}
 
@@ -696,11 +696,14 @@ Noteexpress，应该说早期它们之间差异还是明显的，但到今天基
 \subsection{期刊论文}
 
 \begin{itemize}
-\tightlist
 \item
   合作者人数与版本控制
 \item
   先画图后写作
+\item
+  可视化陷阱
+\item
+  模块化制图
 \item
   语言简洁可能不利于发表，但有利于传播
 \item
@@ -725,6 +728,16 @@ Noteexpress，应该说早期它们之间差异还是明显的，但到今天基
   开放获取？？？基金与影响力传播
 \item
   延长论文的半衰期
+\item
+  回复审稿人
+
+  \begin{itemize}
+  \tightlist
+  \item
+    逐条回复
+  \item
+    指明文中修改的位置
+  \end{itemize}
 \end{itemize}
 
 \subsection{会议摘要}
@@ -999,20 +1012,20 @@ Noteexpress，应该说早期它们之间差异还是明显的，但到今天基
   \href{http://andrewgelman.com/2018/04/01/april-fools-post-dead-serious/}{巫毒娃娃的PNAS}
 \end{itemize}
 
-\chapter*{附录：现代科研兵刃谱}
+\chapter*{附录：现代科研兵刃谱}\label{tool}
 \addcontentsline{toc}{chapter}{附录：现代科研兵刃谱}
 
-\section{文本编辑}
+\section*{文本编辑}
+\addcontentsline{toc}{section}{文本编辑}
 
 \begin{itemize}
-\tightlist
 \item
   所见即所得
 
   \begin{itemize}
   \tightlist
   \item
-    在线协作：google docs /石墨 /腾讯文档
+    在线协作：google docs /石墨 /腾讯文档 / Github
   \item
     离线协作：word
   \end{itemize}
@@ -1026,16 +1039,46 @@ Noteexpress，应该说早期它们之间差异还是明显的，但到今天基
   \item
     sharelatex
   \item
-    rstudio
-  \item
     paperpile
+  \item
+    crossref
   \end{itemize}
 \end{itemize}
 
-\section{学术交流}
+\section*{数据处理与绘图}
+\addcontentsline{toc}{section}{数据处理与绘图}
 
 \begin{itemize}
-\tightlist
+\item
+  所见即所得
+\item
+  百度脑图
+\item
+  autodraw 简笔画
+\item
+  plotly
+\item
+  自动制图
+\item
+  编程绘图
+\item
+  R base
+\item
+  ggplot
+\item
+  python matplot
+\item
+  matlab
+\item
+  tidyverse
+\item
+  shiny
+\end{itemize}
+
+\section*{学术交流}
+\addcontentsline{toc}{section}{学术交流}
+
+\begin{itemize}
 \item
   预先发表服务
 
@@ -1049,16 +1092,6 @@ Noteexpress，应该说早期它们之间差异还是明显的，但到今天基
     peerj
   \item
     接受预先发表期刊的列表https://en.wikipedia.org/wiki/List\_of\_academic\_journals\_by\_preprint\_policy
-  \end{itemize}
-\item
-  回复审稿人
-
-  \begin{itemize}
-  \tightlist
-  \item
-    逐条回复
-  \item
-    指明文中修改的位置
   \end{itemize}
 \item
   学术博客与幻灯片
@@ -1077,18 +1110,29 @@ Noteexpress，应该说早期它们之间差异还是明显的，但到今天基
   \tightlist
   \item
     bookdown
+  \item
+    rticle
   \end{itemize}
 \item
-  数据共享
+  网络身份
 
   \begin{itemize}
   \tightlist
   \item
-    figshare
+    ResearchGate
+  \item
+    ORCID
+  \item
+    ResearcherID
+  \item
+    Google Scholar
+  \item
+    Scopus Author ID
   \end{itemize}
 \end{itemize}
 
-\section{审稿}\label{-1}
+\section*{审稿}\label{-1}
+\addcontentsline{toc}{section}{审稿}
 
 \begin{itemize}
 \tightlist
@@ -1104,7 +1148,8 @@ Noteexpress，应该说早期它们之间差异还是明显的，但到今天基
   \url{https://f1000research.com/} 上付费发表
 \end{itemize}
 
-\section{数据分享}
+\section*{数据分享}
+\addcontentsline{toc}{section}{数据分享}
 
 \begin{itemize}
 \tightlist
@@ -1124,7 +1169,8 @@ Noteexpress，应该说早期它们之间差异还是明显的，但到今天基
   尊重数据生产者
 \end{itemize}
 
-\section{代码管理}
+\section*{代码管理}
+\addcontentsline{toc}{section}{代码管理}
 
 \begin{itemize}
 \tightlist
@@ -1142,9 +1188,12 @@ Noteexpress，应该说早期它们之间差异还是明显的，但到今天基
   记录运行环境保证重复性
 \item
   Good writers borrow from other authors, great authors steal outright
+\item
+  Docker image
 \end{itemize}
 
-\subsection{R包管理}\label{r}
+\subsection*{R包管理}\label{r}
+\addcontentsline{toc}{subsection}{R包管理}
 
 \begin{itemize}
 \tightlist
